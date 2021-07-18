@@ -9,14 +9,25 @@ form.addEventListener("submit", function(evt){
     let email = document.getElementById("email").value
     let storeData;
     
-    let data = {
+    if(validateEmail(email)){
+
+      let data = {
         Nome: name,
         Email: email
+      }
+      
+      counter = counter+1;
+      
+      storeData = JSON.stringify(data)
+      localStorage.setItem(counter,storeData)
+      alert("E-mail cadastrado com sucesso")
     }
-
-    counter = counter+1;
-
-    storeData = JSON.stringify(data)
-    localStorage.setItem(counter,storeData)
-    alert("E-mail cadastrado com sucesso")
+    else
+      alert("Formato de e-mail incorreto. Tente novamente.")
 })
+
+function validateEmail(email){
+        var re = /\S+@\S+\.\S+/;
+        return re.test(email);
+}
+    
