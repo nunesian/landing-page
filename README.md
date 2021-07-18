@@ -12,6 +12,7 @@ __Page Features__
 
 * Form to register name and email
 * Data store in browser's localStorage
+* It doesn't implement responsive design yet
 
 __Custom Features__
 
