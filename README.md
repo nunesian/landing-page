@@ -2,7 +2,7 @@
 
 ## Desafio #1 - Hiring Coders 2
 
-![Print Page](https://github.com/nunesian/landing-page/blob/gh-pages/print.png)
+![Print Page](https://github.com/nunesian/landing-page/blob/gh-pages/images/print.png)
 
 __Description__
 
