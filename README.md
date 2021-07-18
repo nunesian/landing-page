@@ -17,4 +17,4 @@ __Custom Features__
 
 * There are two easter eggs to fall down prices of some items.
 
-Look it up: link
+Look it up: https://forestofillusions.netlify.app/
