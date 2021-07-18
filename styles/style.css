@@ -92,13 +92,14 @@ input{
 }
 
 .promo4:hover{
-    opacity: 80%;
+    opacity: 60%;
 }
 
 #punch-button{
     border-width: 0px;
     text-align: center;
-    font-size: 12px;
+    width: 93px;
+    font-size: 11px;
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -118,7 +119,7 @@ input{
 }
 
 .promo:hover{
-    opacity: 80%;
+    opacity: 60%;
 }
 
 .description{
