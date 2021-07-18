@@ -1,0 +1,156 @@
+@import url(//db.onlinewebfonts.com/c/9bc5e6e04b0e1b49df457e90788df794?family=Commodore+64);
+
+@font-face {
+    font-family: "Commodore 64"; 
+    src: url("//db.onlinewebfonts.com/t/9bc5e6e04b0e1b49df457e90788df794.eot"); 
+    src: url("//db.onlinewebfonts.com/t/9bc5e6e04b0e1b49df457e90788df794.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9bc5e6e04b0e1b49df457e90788df794.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9bc5e6e04b0e1b49df457e90788df794.woff") format("woff"), url("//db.onlinewebfonts.com/t/9bc5e6e04b0e1b49df457e90788df794.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9bc5e6e04b0e1b49df457e90788df794.svg#Commodore 64") format("svg"); 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    background-color: #000;
+}
+
+.conteiner-one{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+
+.conteiner-one-child{
+    flex: 1
+}
+
+#titulo{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 153, 0);
+    font-size: larger;
+}
+
+#main-text{
+    position: relative;
+    top: 10px;
+    color: #fff;
+}
+
+.conteiner-promo{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    font-family: 'Commodore 64';
+}
+
+.form{
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form>*{
+    width: 300px;
+    height: 60px;
+    margin-top: 12px;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+input{
+    text-align: center;
+}
+
+#submit{
+    cursor: pointer;
+    border-radius: 6px;
+    color: #FFF; /* rgba(221, 124, 13, 0.87);*/
+    font-weight:bold;
+    background-color: rgb(255, 153, 0);
+}
+
+#submit:hover{
+    opacity: 80%;
+}
+.conteiner-promo .promo4{
+    display: inline-block;
+    align-items: baseline;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.promo4:hover{
+    opacity: 80%;
+}
+
+#punch-button{
+    border-width: 0px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#punch-button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.promo{
+    margin-top: 20px;
+    padding: 10px;
+    flex-basis: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promo:hover{
+    opacity: 80%;
+}
+
+.description{
+    text-align: center;
+    line-height: 1.5;
+    color: white;
+    font-size: 20px; 
+}
+
+#toasty{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+
+.conteiner-three{
+    cursor: pointer;
+    width: 250px;
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
+
+.section-conteiner{
+    background-image: url(../images/background1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:baseline;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="//db.onlinewebfonts.com/c/9bc5e6e04b0e1b49df457e90788df794?family=Commodore+64" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="./scripts/easterEgg2.js"></script>
+    <script type="text/javascript" src="./scripts/easterEgg1.js"></script>
+    <audio id="coin-sound" src="./coin-sound.mp3"></audio>
+    <title>Forest of Illusion</title>
+</head>
+<body>
+    <section class="section1">
+        <div class="conteiner-one">    
+            <div id="titulo" class="conteiner-child"><h1>Ofertas Imperdíveis!</h1>
+                <div id="main-text"><h2>Todo o site a preço de Black Friday</h2></div>
+                <div style="color: #FFF; font-family: 'font-family: Verdana, Geneva, Tahoma, sans-serif'; font-size: 25px; margin: 2rem 0rem;">
+                    <h5>Cadastre-se para receber ofertas dos melhores jogos por e-mail.</h5></div>
+            </div>
+            <div class="conteiner-chil2">
+                <form class="form" id="form-id">
+                <input type="text" placeholder="Nome" id="name">
+                <input type="text" placeholder="E-mail" id="email">
+                <input type="submit" value="Cadastrar" id="submit">
+            </form></div>
+            <div id="toasty"></div>
+        </div>
+        <div class="conteiner-two">
+
+        </div>
+            <div class="conteiner-promo">
+                <div class="promo"><img src="./images/super-mario.png" alt="Promo1"><p id="super-mario" class="description">Super Mario World<br>R$ 50,00</br></p></div>
+                <div class="promo"><img src="./images/donkey-kong.png" alt="Promo2"><p class="description">Donkey Kong Country<br>R$ 48,00</br></p></div>
+                <div class="promo"><img src="./images/sonic.png" alt="Promo3"><p class="description">Sonic the Hedgehog<br>R$ 33,00</br></p></div>
+                <div class="conteiner-promo4">
+                    <div class="promo4">
+                        <audio id="track" src="./toasty-track.mp3"></audio>
+                        <div id="punch-button">
+                            <div><span>Punch Price</span></div>
+                            <img src="./images/scorpion.gif" alt="Easter Egg" onclick="toasty()"/>
+                        </div>
+                    </div>
+                    <div class="promo4">
+                        <img src="./images/mortal-kombat.png" alt="Promo4">
+                        <p class="description" id="mortal-kombat-price">Mortal Kombat 3<br>R$ 65,00</br></p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="section-conteiner">
+        <div class="conteiner-three" onmouseenter="coin()">
+            <div id="image1">
+                <img src="./images/coin-resized.png" alt="coin">
+                <img src="./images/coin-resized.png" alt="coin">
+            </div>
+            <div id="image2">
+                <img src="./images/coin-resized.png" alt="coin">
+                <img src="./images/coin-resized.png" alt="coin">
+                <img src="./images/coin-resized.png" alt="coin">
+            </div>
+            <div id="image3">
+                <img src="./images/coin-resized.png" alt="coin">
+                <img src="./images/coin-resized.png" alt="coin">
+            </div>
+            <div id="image4">
+                <img src="./images/coin-resized.png" alt="coin">
+            </div>
+        </div>
+    </section>
+</body>
+<script type="text/javascript" src="./scripts/script.js"></script>
+<footer style="background-color: wheat; font-size: 16px;">Developed by: <a href="https://www.linkedin.com/in/ian-nunes-santiago-81a460159/">IaN.</a> </footer>
+</html>
